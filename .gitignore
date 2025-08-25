@@ -1,0 +1,12 @@
+venv/
+.env
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.coverage.xml
+.venv/

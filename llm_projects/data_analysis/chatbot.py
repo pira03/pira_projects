@@ -22,12 +22,6 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from prompt import few_shots
 
 
-# load_dotenv()
-# key= os.getenv("OPENAI_API_KEY")
-
-# llm = ChatOpenAI(openai_api_key=key, model_name="gpt-5-mini", temperature=1 )
-
-
 
 @tool
 def salinity_calculator(conductivity: float) -> float:
